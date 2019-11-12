@@ -140,6 +140,7 @@ export default class AboutMe extends React.Component {
                             <h4 style={{textAlign: "center"}}>LESS / Sass</h4>
                             <h4 style={{textAlign: "center"}}>Javascript</h4>
                             <h4 style={{textAlign: "center"}}>React / Redux</h4>
+                            <h4 style={{textAlign: "center"}}>Firebase</h4>
                         </TabPane>
                         <TabPane tabId="tab2">
                             TODOO 2
