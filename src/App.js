@@ -41,7 +41,6 @@ function App() {
         <AboutMe />
         <Projects />
         <Contact />
-        <ResumePdf />
       </div>
     </>
   );
