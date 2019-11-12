@@ -12,6 +12,7 @@ import {
   Row,
   Col
 } from "reactstrap";
+import ResumePdf from '../ResumePdf/ResumePdf';
 
 
 class PagesNavbar extends React.Component {
@@ -99,7 +100,7 @@ class PagesNavbar extends React.Component {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                  <a href="#" onClick={e => e.preventDefault()}>
                     Pedro Prieto
                   </a>
                 </Col>
@@ -142,11 +143,9 @@ class PagesNavbar extends React.Component {
                   Projects
                 </a>
               </NavItem>
-              {/* <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                  Resume
-                </NavLink>
-              </NavItem> */}
+              <NavItem>
+                <ResumePdf />
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>

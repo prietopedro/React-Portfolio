@@ -19,3 +19,6 @@ const config = {
       const newMessageRef = messagesRef.push()
       newMessageRef.set(obj)
   }
+
+  export const resumeRef = firebase.storage().ref().child("Resume.pdf");
+  
