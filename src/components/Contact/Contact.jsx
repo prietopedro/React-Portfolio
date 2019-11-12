@@ -17,7 +17,7 @@
 */
 
 
-import React from 'react'
+import React,{useState} from 'react'
 import {
     Button,
     Card,
@@ -32,7 +32,39 @@ import {
     UncontrolledTooltip
   } from "reactstrap";
 
+  import {saveMessage} from "../../firebase/firebase"
+
 export default function Contact() {
+    const [formValues,setFormValues] = useState({
+      name:"",
+      email:"",
+      phone:"",
+      company: "",
+      message: ""
+    })
+
+    const [message,setMessage] = useState("")
+
+    const changeHandler = e => {
+      setFormValues({...formValues,[e.target.name]:e.target.value})
+    }
+
+    const submitForm = e => {
+      e.preventDefault();
+      saveMessage(formValues)
+      setMessage("Thank you! I will get back to you soon!")
+      setFormValues({
+        name:"",
+        email:"",
+        phone:"",
+        company: "",
+        message: ""
+      })
+      setTimeout(()=>{
+        setMessage("")
+      },2000)
+    }
+    console.log(formValues)
     return (
         <section className="section">
         <Container>
@@ -41,7 +73,7 @@ export default function Contact() {
               <Card className="card-plain">
                 <CardHeader>
                   <h1 className="profile-title text-left">Contact</h1>
-                  <h5 className="text-on-back">03</h5>
+                  <h5 className="text-on-back"><i class="far fa-address-card"></i></h5>
                 </CardHeader>
                 <CardBody>
                   <Form>
@@ -49,15 +81,18 @@ export default function Contact() {
                       <Col md="6">
                         <FormGroup>
                           <label>Your Name</label>
-                          <Input defaultValue="Mike" type="text" />
+                          <Input onChange={changeHandler} name="name" value={formValues.name} placeholder="John" type="text" />
                         </FormGroup>
                       </Col>
                       <Col md="6">
                         <FormGroup>
                           <label>Email address</label>
                           <Input
-                            placeholder="mike@email.com"
+                            placeholder="johndoe@email.com"
                             type="email"
+                            onChange={changeHandler}
+                            value={formValues.email}
+                            name="email"
                           />
                         </FormGroup>
                       </Col>
@@ -66,13 +101,13 @@ export default function Contact() {
                       <Col md="6">
                         <FormGroup>
                           <label>Phone</label>
-                          <Input defaultValue="001-12321345" type="text" />
+                          <Input value={formValues.phone} name="phone" onChange={changeHandler} placeholder="Optional" type="text" />
                         </FormGroup>
                       </Col>
                       <Col md="6">
                         <FormGroup>
                           <label>Company</label>
-                          <Input defaultValue="CreativeTim" type="text" />
+                          <Input name="company" value={formValues.company} onChange={changeHandler} placeholder="Optional" type="text" />
                         </FormGroup>
                       </Col>
                     </Row>
@@ -80,7 +115,7 @@ export default function Contact() {
                       <Col md="12">
                         <FormGroup>
                           <label>Message</label>
-                          <Input placeholder="Hello there!" type="text" />
+                          <Input name="message" placeholder="Hello there!" value={formValues.message} onChange={changeHandler} type="text" />
                         </FormGroup>
                       </Col>
                     </Row>
@@ -90,8 +125,9 @@ export default function Contact() {
                       data-placement="right"
                       id="tooltip341148792"
                       type="button"
+                      onClick={submitForm}
                     >
-                      Send text
+                      Contact Me
                     </Button>
                     <UncontrolledTooltip
                       delay={0}
@@ -100,6 +136,7 @@ export default function Contact() {
                     >
                       Can't wait for your message
                     </UncontrolledTooltip>
+                    <p>{message}</p>
                   </Form>
                 </CardBody>
               </Card>
@@ -110,11 +147,10 @@ export default function Contact() {
                   <i className="tim-icons icon-square-pin" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Find us at the office</h4>
+                  <h4 className="info-title">Located In</h4>
                   <p>
-                    Bld Mihail Kogalniceanu, nr. 8, <br />
-                    7652 Bucharest, <br />
-                    Romania
+                    Miami, Florida, <br />
+                    USA
                   </p>
                 </div>
               </div>
@@ -123,11 +159,11 @@ export default function Contact() {
                   <i className="tim-icons icon-mobile" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Give us a ring</h4>
+                  <h4 className="info-title">Contact Me</h4>
                   <p>
-                    Michael Jordan <br />
-                    +40 762 321 762 <br />
-                    Mon - Fri, 8:00-22:00
+                    Pedro Prieto <br />
+                    +1 (305) 484-0288 <br />
+                    pedro.prieto003@gmail.com
                   </p>
                 </div>
               </div>

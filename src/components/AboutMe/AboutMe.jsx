@@ -83,14 +83,11 @@ export default class AboutMe extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lg="6" md="6">
+                <Col lg="6" md="5">
+                  <h5 className="text-on-back"><i className="far fa-address-card"></i></h5>
                   <h1 className="profile-title text-left">About Me</h1>
-                  <h5 className="text-on-back">01</h5>
                   <p className="profile-description">
-                    Offices parties lasting outward nothing age few resolve.
-                    Impression to discretion understood to we interested he
-                    excellence. Him remarkably use projection collecting. Going
-                    about eat forty world has round miles.
+                  I'm Pedro Prieto, a software engineer specialized in front-end development . My skills are broad and I'm always eager to keep learning. I enjoy each aspect of being a developer, and love building sites  from start to finish.
                   </p>
                 </Col>
                 <Col className="ml-auto mr-auto" lg="4" md="6">
@@ -99,7 +96,7 @@ export default class AboutMe extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid rounded-circle"
-                        src={require("../../assets/img/mike.jpg")}
+                        src={require("../../assets/img/pedroXl.png")}
                       />
                       <h4 className="title">Technical Skills</h4>
                     </CardHeader>
@@ -119,7 +116,10 @@ export default class AboutMe extends React.Component {
                             Front-End
                           </NavLink>
                         </NavItem>
-                        <NavItem>
+
+                        {/* TO DO BACK-END*/}
+
+                        {/* <NavItem>
                           <NavLink
                             className={classnames({
                               active: this.state.tabs === 2
@@ -129,15 +129,17 @@ export default class AboutMe extends React.Component {
                           >
                             Back-End
                           </NavLink>
-                        </NavItem>
+                        </NavItem> */}
                       </Nav>
                       <TabContent
                         className="tab-subcategories"
                         activeTab={"tab" + this.state.tabs}
                       >
                         <TabPane tabId="tab1">
-                            TODO
-
+                            <h4 style={{textAlign: "center"}}>HTML5 / CSS</h4>
+                            <h4 style={{textAlign: "center"}}>LESS / Sass</h4>
+                            <h4 style={{textAlign: "center"}}>Javascript</h4>
+                            <h4 style={{textAlign: "center"}}>React / Redux</h4>
                         </TabPane>
                         <TabPane tabId="tab2">
                             TODOO 2

@@ -13,6 +13,7 @@ import {
   Col
 } from "reactstrap";
 
+
 class PagesNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -99,7 +100,7 @@ class PagesNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
+                    Pedro Prieto
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -137,15 +138,15 @@ class PagesNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/">
+                <a className="nav-link" href="#projectsId" >
                   Projects
-                </NavLink>
+                </a>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
                   Resume
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

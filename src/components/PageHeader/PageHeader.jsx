@@ -33,13 +33,9 @@ class PageHeader extends React.Component {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">Full Stack Developer</h1>
+            <h1 className="h1-seo">Front-end developer</h1>
             <h3 className="d-none d-sm-block">
               I build & design beautiful web applications and make ideas come to life!
-              <br/>
-              <br/>
-              <br/>
-              Check out my work
             </h3>
           </div>
         </Container>

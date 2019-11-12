@@ -17,11 +17,10 @@
 */
 
 import React,{useEffect} from 'react';
-import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import PageHeader from "./components/PageHeader/PageHeader"
 import Projects from "./components/Projects/Projects"
-import AboutMe from  "./components/AboutMe/AboutMe"
+import AboutMe from "./components/AboutMe/AboutMe"
 import Contact from "./components/Contact/Contact"
 
 
