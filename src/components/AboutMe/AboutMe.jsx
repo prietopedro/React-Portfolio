@@ -33,6 +33,7 @@ import {
   Col
 } from "reactstrap";
 import PerfectScrollbar from "perfect-scrollbar";
+import "./AboutMe.css"
 let ps = null;
 
 export default class AboutMe extends React.Component {
@@ -83,14 +84,14 @@ export default class AboutMe extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lg="6" md="5">
+                <Col id="about-text" lg="6" md="5">
                   <h5 className="text-on-back"><i className="far fa-address-card"></i></h5>
                   <h1 className="profile-title text-left">About Me</h1>
                   <p className="profile-description">
                   I'm Pedro Prieto, a software engineer specialized in front-end development . My skills are broad and I'm always eager to keep learning. I enjoy each aspect of being a developer, and love building sites  from start to finish.
                   </p>
                 </Col>
-                <Col className="ml-auto mr-auto" lg="4" md="6">
+                <Col id="skills" className="ml-auto mr-auto" lg="4" md="6">
                   <Card className="card-coin card-plain">
                     <CardHeader>
                       <img
