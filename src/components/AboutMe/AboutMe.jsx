@@ -120,7 +120,7 @@ export default class AboutMe extends React.Component {
 
                         {/* TO DO BACK-END*/}
 
-                        {/* <NavItem>
+                        <NavItem>
                           <NavLink
                             className={classnames({
                               active: this.state.tabs === 2
@@ -130,21 +130,24 @@ export default class AboutMe extends React.Component {
                           >
                             Back-End
                           </NavLink>
-                        </NavItem> */}
+                        </NavItem>
                       </Nav>
                       <TabContent
                         className="tab-subcategories"
                         activeTab={"tab" + this.state.tabs}
                       >
                         <TabPane tabId="tab1">
-                            <h4 style={{textAlign: "center"}}>HTML5 / CSS</h4>
+                        <h4 style={{textAlign: "center"}}>HTML5 / CSS</h4>
                             <h4 style={{textAlign: "center"}}>LESS / Sass</h4>
-                            <h4 style={{textAlign: "center"}}>Javascript</h4>
+                            <h4 style={{textAlign: "center"}}>Javascript / Typescript</h4>
                             <h4 style={{textAlign: "center"}}>React / Redux</h4>
-                            <h4 style={{textAlign: "center"}}>Firebase</h4>
                         </TabPane>
                         <TabPane tabId="tab2">
-                            TODOO 2
+                            <h4 style={{textAlign: "center"}}>Node / Express</h4>
+                            <h4 style={{textAlign: "center"}}>Java / Spring</h4>
+                            <h4 style={{textAlign: "center"}}>SQL / Relational Databases</h4>
+                            <h4 style={{textAlign: "center"}}>GraphQL</h4>
+
                         </TabPane>
                       </TabContent>
                     </CardBody>
