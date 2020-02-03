@@ -171,6 +171,7 @@ export default class AboutMe extends React.Component {
                     </h4>
                     <h4 style={{ textAlign: 'center' }}>Github</h4>
                     <h4 style={{ textAlign: 'center' }}>Trello</h4>
+                    <h4 style={{ textAlign: 'center' }}>Agile development</h4>
                   </TabPane>
                 </TabContent>
               </CardBody>
