@@ -256,7 +256,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <Container className="my-5">
+      {/* <Container className="my-5">
         <Row className="justify-content-between">
           <Col md="6">
             <Row className="justify-content-between align-items-center">
@@ -307,7 +307,7 @@ export default function Projects() {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       <Container className="my-5">
         <Row className="justify-content-between">
           <Col md="6">
@@ -317,7 +317,7 @@ export default function Projects() {
           </Col>
           <Col md="5">
             <h1 className="profile-title text-left">Puerta IO -Hackathon</h1>
-            <h5 className="text-on-back">05</h5>
+            <h5 className="text-on-back">04</h5>
             <p className="profile-description text-left">
               Worked in a team of 8 to create a real state progressive web app
               during a 30 hour hackathon. Won in the "Most Likely To Become A
