@@ -159,7 +159,7 @@ export default class AboutMe extends React.Component {
                   </TabPane>
                   <TabPane tabId="tab2">
                     <h4 style={{ textAlign: 'center' }}>NodeJS / Express</h4>
-                    <h4 style={{ textAlign: 'center' }}>OOP / Java</h4>
+                    <h4 style={{ textAlign: 'center' }}>OOP</h4>
                     <h4 style={{ textAlign: 'center' }}>
                       SQL / Relational Databases
                     </h4>
