@@ -59,6 +59,7 @@ export default function Contact() {
 			company: "",
 			message: "",
 		});
+
 		setTimeout(() => {
 			setMessage("");
 		}, 2000);
