@@ -89,11 +89,10 @@ export default class AboutMe extends React.Component {
 						<h1 className="profile-title text-left">About Me</h1>
 						<p className="profile-description">
 							I'm Pedro Prieto, a software engineer specialized in web
-							development . My skills are broad from front-end using JS and
-							React to back-end using NodeJS with Express. I'm always eager to
-							learn new technologies and improve on my current skills. I enjoy
-							each aspect of being a developer, and love building or improving
-							sites.
+							development. My skills are broad from front-end using JS and React
+							to back-end using NodeJS with Express. I'm always eager to learn
+							new technologies and improve my current skills. I enjoy each
+							aspect of being a developer, and love building or improving sites.
 						</p>
 					</Col>
 					<Col id="skills" className="ml-auto mr-auto" lg="4" md="6">
@@ -141,7 +140,7 @@ export default class AboutMe extends React.Component {
 											onClick={(e) => this.toggleTabs(e, "tabs", 3)}
 											href="#pablo"
 										>
-											Learning
+											Other
 										</NavLink>
 									</NavItem>
 								</Nav>
@@ -153,26 +152,24 @@ export default class AboutMe extends React.Component {
 										<h4 style={{ textAlign: "center" }}>HTML5 / CSS</h4>
 										<h4 style={{ textAlign: "center" }}>LESS / Sass</h4>
 										<h4 style={{ textAlign: "center" }}>
-											Javascript / Typescript
+											JavaScript / TypeScript
 										</h4>
 										<h4 style={{ textAlign: "center" }}>React / Redux</h4>
 									</TabPane>
 									<TabPane tabId="tab2">
 										<h4 style={{ textAlign: "center" }}>NodeJS / Express</h4>
-										<h4 style={{ textAlign: "center" }}>Python / OOP</h4>
+										<h4 style={{ textAlign: "center" }}>Python</h4>
 										<h4 style={{ textAlign: "center" }}>
 											SQL / Relational Databases
 										</h4>
-										<h4 style={{ textAlign: "center" }}>NoSQL / MongoDB</h4>
-										<h4 style={{ textAlign: "center" }}>Testing / Jest</h4>
+										<h4 style={{ textAlign: "center" }}>MongoDB</h4>
 									</TabPane>
 									<TabPane tabId="tab3">
-										<h4 style={{ textAlign: "center" }}>C# / Entity</h4>
 										<h4 style={{ textAlign: "center" }}>
-											Amazon Web Services (AWS)
+											Git / Version Control
 										</h4>
-										<h4 style={{ textAlign: "center" }}>GraphQL</h4>
-										<h4 style={{ textAlign: "center" }}>CI / CD</h4>
+										<h4 style={{ textAlign: "center" }}>Agile Development</h4>
+										<h4 style={{ textAlign: "center" }}>OOP</h4>
 									</TabPane>
 								</TabContent>
 							</CardBody>

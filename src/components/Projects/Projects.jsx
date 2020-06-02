@@ -114,36 +114,28 @@ export default function Projects() {
 						<h1 className="profile-title text-left">Speak Out</h1>
 						<h5 className="text-on-back">01</h5>
 						<p className="profile-description text-left">
-							Speak Out is a non-profit organitazion based in Bahrain that
-							provides quality learning to low income families at affordable
+							Speak Out is a non-profit organization based in Bahrain that
+							provides quality learning to low-income families at affordable
 							prices.
 						</p>
 						<p className="text-left" style={{ fontWeight: "bold" }}>
 							Accomplishments:
 						</p>
 						<p className="ml-4">
-							- Executed in under 6 weeks, with a team of 4 Web Developers.
+							- Executed in under 6 weeks, with a team of 4 Web Developers
 						</p>
 						<p className="ml-4">
 							- Increased staff productivity by creating a dashboard where
-							admins could follow their daily paper-based workflow digitally.
+							admins could follow their daily paper-based workflow digitally
 						</p>
 						<p className="ml-4">
 							- Enabled stakeholder to expand to a new location by creating an
 							accessible relational database that stores all students, courses,
 							and staff information online. The previous database could only be
-							accessed in one device at a time.
+							accessed in one device at a time
 						</p>
 						<br />
-						<p>Login Credentials:</p>
-						<p>
-							Username: <span style={{ fontStyle: "bold" }}>admin</span>
-						</p>
-						<p>
-							Password: <span style={{ fontStyle: "bold" }}>pass</span>
-						</p>
-						<br />
-						<p>Tech Stack: React / Redux / Node / Express / PostgreSQL</p>
+						<p>Tech Stack: React / Redux / NodeJS / Express / PostgreSQL</p>
 						<div className="btn-wrapper pt-3">
 							<Button
 								className="btn-simple"
@@ -189,17 +181,17 @@ export default function Projects() {
 						<p className="text-left" style={{ fontWeight: "bold" }}>
 							Accomplishments:
 						</p>
-						<p className="ml-4">- Completed in under 3 days.</p>
+						<p className="ml-4">- Completed in under 3 days</p>
 						<p className="ml-4">
-							- Used best coding practices to achieve efficient SEO.
+							- Used best coding practices to achieve efficient SEO
 						</p>
 						<p className="ml-4">
 							- Implemented an accordion FAQ section using vanilla JS and DOM
-							manipulation.
+							manipulation
 						</p>
 						<p className="ml-4">
 							- Added breakpoints to make it 100% mobile responsive for greater
-							reach and better user experience.
+							reach and better user experience
 						</p>
 						<br />
 						<p>Tech Stack: HTML5 / CSS / Less / Javascript</p>
@@ -336,23 +328,17 @@ export default function Projects() {
 						</p>
 						<p className="ml-4">
 							- Completed in one day, with a team of 8 composed of UX and Web
-							Developers.
+							Developers
 						</p>
 						<p className="ml-4">
 							- Created a MongoDB database to persist all of the users,
 							properties, and scheduled viewings data
 						</p>
 						<p className="ml-4">
-							- Implemented SMS notifications and alerts so that scheduled
-							viewings are always right on time.
-						</p>
-						<p className="ml-4">
-							- Added a like/dislike feature for buyers to keep the listings
-							they want to see and hide the ones they did not. Was implemented
-							with the idea of creating an algorithm for better recommendations.
+							- Utilized Twilio’s API to implement SMS notifications for agents
 						</p>
 						<br />
-						<p>Tech Stack: NodeJS / Express / SocketIO / MongoDB / NextJS</p>
+						<p>Tech Stack: NodeJS / Express / MongoDB / NextJS / Twilio</p>
 						<div className="btn-wrapper pt-3">
 							<Button
 								className="btn-simple"
