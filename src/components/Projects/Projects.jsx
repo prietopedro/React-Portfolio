@@ -181,17 +181,14 @@ export default function Projects() {
 						<p className="text-left" style={{ fontWeight: "bold" }}>
 							Accomplishments:
 						</p>
-						<p className="ml-4">- Completed in under 3 days</p>
-						<p className="ml-4">
-							- Used best coding practices to achieve efficient SEO
-						</p>
+						<p className="ml-4">- Completed in 3 days.</p>
 						<p className="ml-4">
 							- Implemented an accordion FAQ section using vanilla JS and DOM
 							manipulation
 						</p>
 						<p className="ml-4">
-							- Added breakpoints to make it 100% mobile responsive for greater
-							reach and better user experience
+							- Added breakpoints to make the page fully responsive and improve
+							user experience.
 						</p>
 						<br />
 						<p>Tech Stack: HTML5 / CSS / Less / Javascript</p>
@@ -327,15 +324,15 @@ export default function Projects() {
 							Accomplishments:
 						</p>
 						<p className="ml-4">
-							- Completed in one day, with a team of 8 composed of UX and Web
-							Developers
+							- Collaborated remotely with a team of 6 web developers and 2
+							UX/UI designers for 30 hours.
 						</p>
 						<p className="ml-4">
-							- Created a MongoDB database to persist all of the users,
-							properties, and scheduled viewings data
+							- Solely responsible for creating database schema and building
+							endpoints for the project back end and server-side functions.
 						</p>
 						<p className="ml-4">
-							- Utilized Twilio’s API to implement SMS notifications for agents
+							- Utilized Twilio’s API to implement SMS notifications for agents.
 						</p>
 						<br />
 						<p>Tech Stack: NodeJS / Express / MongoDB / NextJS / Twilio</p>
