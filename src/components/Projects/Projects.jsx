@@ -173,7 +173,9 @@ export default function Projects() {
             </Row>
           </Col>
           <Col md="5">
-            <h1 className="profile-title text-left">Macros Calculator</h1>
+            <h1 className="profile-title text-left">
+              Macros Calculator Landing Page
+            </h1>
             <h5 className="text-on-back">02</h5>
             <p className="profile-description text-left">
               Marketing / Landing Page for a macros calculator web application.
@@ -347,6 +349,60 @@ export default function Projects() {
                 target="_blank"
               >
                 <i className="tim-icons icon-video-66" /> Video Demo
+              </Button>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="my-5">
+        <Row className="justify-content-between">
+          <Col md="6">
+            <Row className="justify-content-between align-items-center">
+              <UncontrolledCarousel items={carouselItems3} />
+            </Row>
+          </Col>
+          <Col md="5">
+            <h1 className="profile-title text-left">
+              Macros Calculator React App
+            </h1>
+            <h5 className="text-on-back">05</h5>
+            <p className="profile-description text-left">
+              Website that calculates macros using the users information and
+              recommends the macronutrients needed for every meal.
+            </p>
+            <p className="text-left" style={{ fontWeight: "bold" }}>
+              Accomplishments:
+            </p>
+            <p className="ml-4">
+              - Collaborated remotely with a team of 5 web developers and 1
+              UX/UI designer for 5 days.
+            </p>
+            <p className="ml-4">
+              - Solely responsible for state managment and server connection
+              using Redux and Axios.
+            </p>
+            <p className="ml-4">
+              - Created an algorithm that takes the user information and returns
+              the daily macronutrients.
+            </p>
+            <br />
+            <p>Tech Stack: HTML / CSS / React / Redux / Node </p>
+            <div className="btn-wrapper pt-3">
+              <Button
+                className="btn-simple"
+                color="primary"
+                href="https://github.com/prietop97/macro-calculator-react"
+                target="_blank"
+              >
+                <i className="fab fa-github" /> Github
+              </Button>
+              <Button
+                className="btn-simple"
+                color="info"
+                href="https://macro-calculator-react.pedroprieto.now.sh/"
+                target="_blank"
+              >
+                <i className="tim-icons icon-bulb-63" /> Live Demo
               </Button>
             </div>
           </Col>
