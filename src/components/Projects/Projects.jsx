@@ -406,7 +406,7 @@ export default function Projects() {
               UX/UI designer for 5 days.
             </p>
             <p className="ml-4">
-              - Solely responsible for state managment and server connection
+              - Solely responsible for state management and server connection
               using Redux and Axios.
             </p>
             <p className="ml-4">
