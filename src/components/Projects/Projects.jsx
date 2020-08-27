@@ -89,18 +89,23 @@ export default function Projects() {
       caption: "",
     },
   ];
-  // const carouselItems3 = [
-  //   {
-  //     src: require("../../assets/img/github1.png"),
-  //     altText: "Slide 1",
-  //     caption: "Homepage"
-  //   },
-  //   {
-  //     src: require("../../assets/img/github2.png"),
-  //     altText: "Slide 2",
-  //     caption: "Profile Page"
-  //   }
-  // ];
+  const carouselItemsBetter = [
+    {
+      src: require("../../assets/img/br1.png"),
+      altText: "Slide 1",
+      caption: "Homepage",
+    },
+    {
+      src: require("../../assets/img/br2.png"),
+      altText: "Slide 2",
+      caption: "Profile Page",
+    },
+    {
+      src: require("../../assets/img/br3.png"),
+      altText: "Slide 2",
+      caption: "Book Page",
+    },
+  ];
   return (
     <div className="section" id="projectsId">
       <Container className="my-5">
@@ -165,7 +170,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <Container className="my-5">
+      {/* <Container className="my-5">
         <Row className="justify-content-between">
           <Col md="6">
             <Row className="justify-content-between align-items-center">
@@ -214,45 +219,60 @@ export default function Projects() {
             </div>
           </Col>
         </Row>
+      </Container> */}
+      <Container className="my-5">
+        <Row className="justify-content-between">
+          <Col md="6">
+            <Row className="justify-content-between align-items-center">
+              <UncontrolledCarousel items={carouselItemsBetter} />
+            </Row>
+          </Col>
+          <Col md="5">
+            <h1 className="profile-title text-left">BetterReads</h1>
+            <h5 className="text-on-back">02</h5>
+            <p className="profile-description text-left">
+              BetterReads is a web application that lets users search through
+              the google books api and save them to bookshelves.
+            </p>
+            <p className="text-left" style={{ fontWeight: "bold" }}>
+              Accomplishments:
+            </p>
+            <p className="ml-4">
+              - Created the application interface using Next.JS for server side
+              rendering.
+            </p>
+            <p className="ml-4">
+              - Created the backend graphql queries and mutation.
+            </p>
+            <p className="ml-4">
+              - Utilized Google’s API to search through their enourmous books
+              database.
+            </p>
+            <br />
+            <p>
+              Tech Stack: NextJS / GraphQL / NodeJS / Typescript / PostgreSQL
+            </p>
+            <div className="btn-wrapper pt-3">
+              <Button
+                className="btn-simple"
+                color="primary"
+                href="https://github.com/prietop97/BetterReads"
+                target="_blank"
+              >
+                <i className="fab fa-github" /> Github
+              </Button>
+              <Button
+                className="btn-simple"
+                color="info"
+                href="https://better-reads.vercel.app/"
+                target="_blank"
+              >
+                <i className="tim-icons icon-bulb-63" /> Check it!
+              </Button>
+            </div>
+          </Col>
+        </Row>
       </Container>
-      {/* <Container className="my-5">
-				<Row className="justify-content-between">
-					<Col md="6">
-						<Row className="justify-content-between align-items-center">
-							<UncontrolledCarousel items={carouselItems} />
-						</Row>
-					</Col>
-					<Col md="5">
-						<h1 className="profile-title text-left">CRWN Clothing</h1>
-						<h5 className="text-on-back">03</h5>
-						<p className="profile-description text-left">
-							E-commerce store created in React. Implemented Redux for state
-							managment. Firebase for authentication and Stripe for payment
-							method.
-						</p>
-						<br />
-						<p>Tech Stack: React / Redux / Firebase</p>
-						<div className="btn-wrapper pt-3">
-							<Button
-								className="btn-simple"
-								color="primary"
-								href="https://github.com/prietop97/e-commerce-website"
-								target="_blank"
-							>
-								<i className="fab fa-github" /> Github
-							</Button>
-							<Button
-								className="btn-simple"
-								color="info"
-								href="https://e-commerce-website.pedroprieto.now.sh/"
-								target="_blank"
-							>
-								<i className="tim-icons icon-bulb-63" /> Check it!
-							</Button>
-						</div>
-					</Col>
-				</Row>
-			</Container> */}
       <Container className="my-5">
         <Row className="justify-content-between">
           <Col md="6">
@@ -341,6 +361,14 @@ export default function Projects() {
                 target="_blank"
               >
                 <i className="fab fa-github" /> Github
+              </Button>
+              <Button
+                className="btn-simple"
+                color="info"
+                href="https://chrome.google.com/webstore/detail/youprod/lpbjbdphnlknpcdaikinhbglcokjahfh"
+                target="_blank"
+              >
+                <i className="tim-icons icon-bulb-63" /> Live Demo
               </Button>
               <Button
                 className="btn-simple"
