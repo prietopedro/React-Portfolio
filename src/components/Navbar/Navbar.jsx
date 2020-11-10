@@ -136,7 +136,7 @@ class PagesNavbar extends React.Component {
 							<NavItem className="p-0">
 								<NavLink
 									data-placement="bottom"
-									href="https://www.github.com/prietop97"
+									href="https://www.github.com/prietopedro"
 									rel="noopener noreferrer"
 									target="_blank"
 								>
