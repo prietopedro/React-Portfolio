@@ -127,17 +127,13 @@ export default function Projects() {
               Accomplishments:
             </p>
             <p className="ml-4">
-              - Executed in under 6 weeks, with a team of 4 Web Developers
+              - Developed and implemented a web application using NodeJS, Express, and PostgreSQL to store and manage student data and attendance for SpeakOut, a non-profit school in Bahrain, resulting in improved data organization and accessibility.
             </p>
             <p className="ml-4">
-              - Increased staff productivity by creating a dashboard where
-              admins could follow their daily paper-based workflow digitally
+              - Utilized React and Redux to assist in building the front-end of the application, contributing to a user-friendly interface for staff and improved data visualization for decision making.
             </p>
             <p className="ml-4">
-              - Enabled stakeholder to expand to a new location by creating an
-              accessible relational database that stores all students, courses,
-              and staff information online. The previous database could only be
-              accessed in one device at a time
+              - Collaborated with a team of 4 developers to deliver the project on time, enabling SpeakOut to expand to new locations and provide quality learning to more low-income families at an affordable cost.
             </p>
             <br />
             <p>Tech Stack: React / Redux / NodeJS / Express / PostgreSQL</p>
@@ -145,7 +141,7 @@ export default function Projects() {
               <Button
                 className="btn-simple"
                 color="primary"
-                href="https://github.com/Lambda-School-Labs/speak-out-be"
+                href="https://github.com/prietopedro/speak-out-be"
                 target="_blank"
               >
                 <i className="fab fa-github" /> Github
@@ -153,19 +149,19 @@ export default function Projects() {
               <Button
                 className="btn-simple"
                 color="info"
-                href="https://speakout.pedroprieto.now.sh/"
+                href="https://speak-out-fe-krdm.vercel.app/"
                 target="_blank"
               >
                 <i className="tim-icons icon-bulb-63" /> Live Demo
               </Button>
-              <Button
+              {/* <Button
                 className="btn-simple"
                 color="success"
                 href="https://www.youtube.com/watch?v=HrkI5MD3HQI"
                 target="_blank"
               >
                 <i className="tim-icons icon-video-66" /> Video Demo
-              </Button>
+              </Button> */}
             </div>
           </Col>
         </Row>
@@ -238,25 +234,23 @@ export default function Projects() {
               Accomplishments:
             </p>
             <p className="ml-4">
-              - Created the application interface using Next.JS for server side
-              rendering.
+              - Built and implemented the backend of the web application "BetterReads" using NodeJS, Express and MongoDB, allowing users to search for books, save them to their collection, and update the status of the book.
             </p>
             <p className="ml-4">
-              - Created the backend graphql queries and mutation.
+              - Utilized a dataset of over 50K books and additional data from the Google Books API to seed the database, resulting in a comprehensive and accurate book collection for users.
             </p>
             <p className="ml-4">
-              - Utilized Google’s API to search through their enourmous books
-              database.
+              - Assisted in the development of the frontend by connecting it with the backend and making the website mobile-friendly, providing a seamless and easy-to-use experience for users on any device.
             </p>
             <br />
             <p>
-              Tech Stack: NextJS / GraphQL / NodeJS / Typescript / PostgreSQL
+              Tech Stack: React / MongoDB / NodeJS 
             </p>
             <div className="btn-wrapper pt-3">
               <Button
                 className="btn-simple"
                 color="primary"
-                href="https://github.com/prietop97/BetterReads"
+                href="https://github.com/prietopedro/betterreadsbe"
                 target="_blank"
               >
                 <i className="fab fa-github" /> Github
@@ -264,10 +258,10 @@ export default function Projects() {
               <Button
                 className="btn-simple"
                 color="info"
-                href="https://better-reads.vercel.app/"
+                href="https://goodreads-webclient.vercel.app"
                 target="_blank"
               >
-                <i className="tim-icons icon-bulb-63" /> Check it!
+                <i className="tim-icons icon-bulb-63" /> Live Demo
               </Button>
             </div>
           </Col>
@@ -327,7 +321,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <Container className="my-5">
+      {/* <Container className="my-5">
         <Row className="justify-content-between">
           <Col md="6">
             <Row className="justify-content-between align-items-center">
@@ -435,7 +429,7 @@ export default function Projects() {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }

@@ -88,11 +88,7 @@ export default class AboutMe extends React.Component {
 						</h5>
 						<h1 className="profile-title text-left">About Me</h1>
 						<p className="profile-description">
-							I'm Pedro Prieto, a software engineer specialized in web
-							development. My skills are broad from front-end using JS and React
-							to back-end using NodeJS with Express. I'm always eager to learn
-							new technologies and improve my current skills. I enjoy each
-							aspect of being a developer, and love building or improving sites.
+						I'm Pedro Prieto, a software engineer with a specialization in web development. My skillset is broad and encompasses both front-end development with JavaScript and React, as well as back-end development with NodeJS and Express. I am always eager to learn new technologies and improve my current skills, as I believe that staying up-to-date with the latest developments in the industry is essential for success as a developer. I truly enjoy every aspect of being a developer, and take great pleasure in building or improving web applications. I am highly motivated, and always strive to produce high-quality work that meets the needs of my clients.
 						</p>
 					</Col>
 					<Col id="skills" className="ml-auto mr-auto" lg="4" md="6">

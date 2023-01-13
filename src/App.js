@@ -39,7 +39,7 @@ function App() {
         <PageHeader />
         <AboutMe />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </>
   );
