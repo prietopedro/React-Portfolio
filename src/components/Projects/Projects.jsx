@@ -127,13 +127,21 @@ export default function Projects() {
               Accomplishments:
             </p>
             <p className="ml-4">
-              - Developed and implemented a web application using NodeJS, Express, and PostgreSQL to store and manage student data and attendance for SpeakOut, a non-profit school in Bahrain, resulting in improved data organization and accessibility.
+              - Developed and implemented a web application using NodeJS,
+              Express, and PostgreSQL to store and manage student data and
+              attendance for Speakout, a non-profit school in Bahrain, resulting
+              in improved data organization and accessibility.
             </p>
             <p className="ml-4">
-              - Utilized React and Redux to assist in building the front-end of the application, contributing to a user-friendly interface for staff and improved data visualization for decision making.
+              - Utilized React and Redux to assist in building the front-end of
+              the application, contributing to a user-friendly interface for
+              staff and improved data visualization for decision making.
             </p>
             <p className="ml-4">
-              - Collaborated with a team of 4 developers to deliver the project on time, enabling SpeakOut to expand to new locations and provide quality learning to more low-income families at an affordable cost.
+              - Collaborated with a team of 4 developers to deliver the project
+              on time, enabling SpeakOut to expand to new locations and provide
+              quality learning to more low-income families at an affordable
+              cost.
             </p>
             <br />
             <p>Tech Stack: React / Redux / NodeJS / Express / PostgreSQL</p>
@@ -141,7 +149,7 @@ export default function Projects() {
               <Button
                 className="btn-simple"
                 color="primary"
-                href="https://github.com/prietopedro/speak-out-be"
+                href="https://github.com/prietopedro/speak-out-fe"
                 target="_blank"
               >
                 <i className="fab fa-github" /> Github
@@ -234,23 +242,27 @@ export default function Projects() {
               Accomplishments:
             </p>
             <p className="ml-4">
-              - Built and implemented the backend of the web application "BetterReads" using NodeJS, Express and MongoDB, allowing users to search for books, save them to their collection, and update the status of the book.
+              - Developed BetterReads implementing a range of technologies
+              including React, TypeScript, React Query, Node.js, Express, and
+              MongoDB.
             </p>
             <p className="ml-4">
-              - Utilized a dataset of over 50K books and additional data from the Google Books API to seed the database, resulting in a comprehensive and accurate book collection for users.
+              - Designed and built a user-friendly web application that
+              integrated with the Google Books API, allowing users to search for
+              books, rate them, mark favorites, and update reading status.
             </p>
             <p className="ml-4">
-              - Assisted in the development of the frontend by connecting it with the backend and making the website mobile-friendly, providing a seamless and easy-to-use experience for users on any device.
+              - Set up and configured a CI/CD pipeline using GitHub Actions,
+              Docker, and AWS Beanstalk, ensuring smooth deployment and
+              continuous integration of the application.
             </p>
             <br />
-            <p>
-              Tech Stack: React / MongoDB / NodeJS 
-            </p>
+            <p>Tech Stack: React / MongoDB / NodeJS</p>
             <div className="btn-wrapper pt-3">
               <Button
                 className="btn-simple"
                 color="primary"
-                href="https://github.com/prietopedro/betterreadsbe"
+                href="https://github.com/prietopedro/betterreads"
                 target="_blank"
               >
                 <i className="fab fa-github" /> Github
@@ -258,7 +270,7 @@ export default function Projects() {
               <Button
                 className="btn-simple"
                 color="info"
-                href="https://goodreads-webclient.vercel.app"
+                href="https://betterreadsnow.com/"
                 target="_blank"
               >
                 <i className="tim-icons icon-bulb-63" /> Live Demo
